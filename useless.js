@@ -1,10 +1,10 @@
-l=100;function j(m){
+l=2+9;function j(m){
  console.log(m)}for 
   (i=0;i<l;i++){j(
    " ".repeat(i)+
     "#%".repeat
-     (l+8-8-i)
+     (l+i-i*2)
       .slice(
-       8-8,-
+       i-i,-
         1))
          }
